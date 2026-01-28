@@ -12,7 +12,7 @@ const copyLabel = document.getElementById("copyLabel");
 copyBtn.addEventListener("click", copyText);
 
 function getStoryText() {
-  return `ВАЖНО: итоговая сказка должна быть не более 1100–1200 символов.
+  return `ВАЖНО: итоговая сказка должна быть не более 1300–1400 символов.
 
 Придумай сказку на тему ${t1.value}.
 Главный герой — ${t2.value}, он ${t3.value}.
