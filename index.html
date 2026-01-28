@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Создай сказку</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+
+    <div class="line">
+        1. Придумай сказку на тему
+        <input id="t1" placeholder="тема">.
+    </div>
+
+    <div class="line">
+        2. Главный герой —
+        <input id="t2" placeholder="кто">,
+        он
+        <input id="t3" placeholder="какой">.
+    </div>
+
+    <div class="line">
+        3. Его друг —
+        <input id="t4" placeholder="друг">.
+    </div>
+
+    <div class="line">
+        4. Однажды с ними произошло
+        <input id="t5" placeholder="событие">.
+    </div>
+
+    <div class="line">
+        5. В конце истории всё закончилось так:
+        <input id="t6" placeholder="финал">.
+    </div>
+
+    <button id="copyBtn">Скопировать текст</button>
+    <div id="copyLabel" class="copy-label">✔ Текст скопирован</div>
+    <div id="limitHint" class="hint">
+        Ограничение: не более 1200 символов
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
